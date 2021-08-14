@@ -1,0 +1,20 @@
+package main
+
+import (
+	"fmt"
+)
+type data int
+
+func (n1 data) fun_mult(n2 data) data {
+	return n1*n2
+}
+
+func main() {
+    value1 := data(20)
+    value2 := data(20)
+    res := value1.fun_mult(value2)
+    fmt.Println("Final result: ", res)
+}
+/* Output
+Final result:  400
+*/

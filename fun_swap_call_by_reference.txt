@@ -1,0 +1,25 @@
+package main
+
+import (
+	"fmt"
+)
+func fun_swap(x,y *int) {
+   var temp int
+
+   temp = *x
+   *x=*y
+   *y=temp
+}
+func main() {
+   var a=70
+   var b=30
+
+   fmt.Println("Before Swaping", a, b)
+   fun_swap(&a,&b)
+   fmt.Println("Aftere Swaping", a, b)
+}
+/* Output
+go run f1_swap.go
+Before Swaping 70 30
+Aftere Swaping 30 70
+*/
