@@ -1,3 +1,8 @@
+/*  import mongodb client go get go.mongodb.org/mongo-driver/mongo  (ONLY FIRST TIME)
+    RUN  MONGOD AT COMMAND PROMPT
+	RUN MongoDBcOMPASS  AND  CLICK ON Client    
+    tHEN RUN GO PROGRAM USING GO RUN PROG.GO
+*/
 package main
 
 import (
